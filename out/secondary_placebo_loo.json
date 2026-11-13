@@ -1,0 +1,31 @@
+{
+ "label": "in-sample, historical; secondary (prereg \u00a76, erratum E4 \u00a77-8)",
+ "placebo_dates": {
+  "draws": 1000,
+  "seed": 12,
+  "observed": -0.019234934513523868,
+  "firms_per_draw": 24,
+  "rejected_redrawn": 0,
+  "placebo_mean": -6.749623950189937e-05,
+  "placebo_sd": 0.00728067357276331,
+  "share_one_sided_le": 0.008,
+  "share_two_sided_abs": 0.017,
+  "p_one_sided_le": 0.008991008991008992,
+  "p_two_sided_abs": 0.017982017982017984,
+  "notes": "draws independent across firms (no calendar clustering in the null); a placebo estimation window may contain the firm's true event",
+  "q05_q95": [
+   -0.01108586360765325,
+   0.011811080359367671
+  ]
+ },
+ "loo_arm_b": {
+  "min": -0.007165925686666796,
+  "max": -0.0008007989392649574,
+  "n": 15
+ },
+ "loo_arm_a": {
+  "min": -0.007920577353433518,
+  "max": 0.0024525122039603733,
+  "n": 4
+ }
+}

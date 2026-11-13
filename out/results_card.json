@@ -1,0 +1,339 @@
+{
+ "label_rule": "Historical numbers are in-sample event studies; Nvidia is a single 2026 case.",
+ "L01_hook": {
+  "nvda_nov9": "-4.3%",
+  "up": 26,
+  "of": 27,
+  "sox": "+6.9%",
+  "source": "chip_raw_closes_2026-11-03_11.csv"
+ },
+ "H1_hook_mcap": {
+  "start": "2026-11-06",
+  "end": "2026-11-12",
+  "close_start": 186.63999938964844,
+  "close_end": 166.19000244140625,
+  "shares": 24147000000.0,
+  "fetched": "2026-11-13 04:45:05",
+  "loss_usd_bn": 494,
+  "pct": -10.96,
+  "label": "raw market value, Nov 6 close to Nov 12 close (the resignation day); includes all news that week, not just the affair; current shares outstanding"
+ },
+ "L09_grid": {
+  "code4_total": 237,
+  "sex_keyword_cut": 34,
+  "with_prices_and_date": 24,
+  "source": "Gentry et al. DB v7 code 4; out/events_arm_c.csv"
+ },
+ "L14_primary": {
+  "n": 24,
+  "mean_car_0_1": "-1.9%",
+  "ci95_kp": [
+   "-3.7%",
+   "-0.1%"
+  ],
+  "n_fell": 19,
+  "p_kp": 0.088,
+  "p_rank": 0.003,
+  "p_sign": 0.007,
+  "p_bmp": 0.085,
+  "t_kp": -1.78,
+  "verdict_locked_rule": "Contradicted",
+  "caveat": "the CI only just excludes 0; the primary BMP-KP test does not reject at 5%",
+  "source": "out/arm_c.json csex_ff5 0_1",
+  "label": "in-sample, FF5 daily, CAR[0,+1]"
+ },
+ "L14_sensitivity_clear_affairs": {
+  "n": 16,
+  "mean_car_0_1": "-0.7%",
+  "ci95_kp": [
+   "-2.8%",
+   "+1.4%"
+  ],
+  "n_fell": 12,
+  "p_kp": 0.462,
+  "source": "out/arm_c_sensitivity.json strict_S",
+  "label": "sensitivity only (manual audit), not the verdict"
+ },
+ "L15_posthoc_twist": {
+  "label": "post-hoc, not pre-registered; simple means, no test",
+  "spelled_out_sex_or_relationship": {
+   "n": 16,
+   "mean_car_0_1": "-0.7%",
+   "n_fell": 12
+  },
+  "unspecified_personal_conduct": {
+   "n": 7,
+   "mean_car_0_1": "-4.3%",
+   "n_fell": 6
+  }
+ },
+ "viral_replication": {
+  "n": 15,
+  "mean_delta_monthly": -0.0028,
+  "t_cross": -0.5186,
+  "n_positive": 4,
+  "n_sig_pos_5pct": 1,
+  "n_sig_neg_5pct": 0,
+  "reel_only_mean_delta": -0.0023,
+  "label": "his spec, our run (his estimate not visible)",
+  "source": "out/arm_b_viral.json"
+ },
+ "L16_nvidia_gap": {
+  "gap_log_pts": -19.0,
+  "gap_simple": "-17%",
+  "wording": "X% below its synthetic twin (relative gap), not X points",
+  "window": "Nov 9-11 2026",
+  "source": "out/arm_d_nvidia.json nvda.primary_nov9_11"
+ },
+ "L17_placebo": {
+  "rank": 1,
+  "of": 27,
+  "p": 0.037,
+  "placebo_gap_range_log_pts": [
+   -6.0,
+   7.8
+  ],
+  "says": "outside all of them",
+  "source": "out/arm_d_nvidia.json placebo_rank"
+ },
+ "L19_ending": "Negative (prereg \u00a73 table, computed)",
+ "secondary": {
+  "label": "secondary, in-sample; none can change the verdict (prereg \u00a76-7, errata E4-E5)",
+  "calendar_time_csex": {
+   "12": {
+    "alpha_monthly": "+0.50%",
+    "p": 0.542
+   },
+   "36": {
+    "alpha_monthly": "-0.03%",
+    "p": 0.948
+   }
+  },
+  "calendar_time_call": {
+   "12": {
+    "alpha_monthly": "+2.10%",
+    "p": 0.07,
+    "caveat": "C-all tickers come from today's SEC map: survivors only"
+   },
+   "36": {
+    "alpha_monthly": "+1.84%",
+    "p": 0.067,
+    "caveat": "C-all tickers come from today's SEC map: survivors only"
+   }
+  },
+  "bayes_csex": {
+   "mu_mean": "-1.12%",
+   "hdi94": [
+    "-2.36%",
+    "+0.06%"
+   ],
+   "p_mu_gt0_locked": 0.032,
+   "p_mu_lt0": 0.968,
+   "converged": true,
+   "max_rhat": 1.0086,
+   "divergences": 24,
+   "caveat": "two arms: sigma_arm is prior-dominated; divergences are reported, convergence is judged by R-hat (E4 \u00a73)"
+  },
+  "garch_scar_csex": {
+   "mean": -0.745,
+   "t_kp": -1.709,
+   "p_kp": 0.101,
+   "n": 24
+  },
+  "volume_csex_day0_1": {
+   "mean": 1.597,
+   "t": 5.427,
+   "n": 24,
+   "p": "1.6e-05"
+  },
+  "placebo_dates": {
+   "observed": "-1.92%",
+   "placebo_q05_q95": [
+    "-1.11%",
+    "+1.18%"
+   ],
+   "draws_as_low": "8 of 1000",
+   "p_two_sided": 0.018,
+   "caveat": "the null has no event-induced variance, so it is less conservative than KP-BMP"
+  },
+  "loo_viral_arm_b_monthly": [
+   "-0.72%",
+   "-0.08%"
+  ],
+  "loo_claim_arm_a_monthly": [
+   "-0.79%",
+   "+0.25%"
+  ],
+  "holm": {
+   "family_size": 40,
+   "n_reject_5pct": 3,
+   "rejected": [
+    "volume_csex_day0",
+    "volume_csex_day1",
+    "volume_csex_w01"
+   ],
+   "raw_and_adjusted": {
+    "calendar_call_h12": [
+     0.0705,
+     1.0
+    ],
+    "calendar_call_h36": [
+     0.0671,
+     1.0
+    ],
+    "calendar_csex_h12": [
+     0.5424,
+     1.0
+    ],
+    "calendar_csex_h36": [
+     0.9477,
+     1.0
+    ],
+    "eventstudy_call_ff5_-1_5_kp": [
+     0.0038,
+     0.126
+    ],
+    "eventstudy_call_ff5_-1_5_rank": [
+     0.0032,
+     0.1149
+    ],
+    "eventstudy_call_ff5_-1_5_sign": [
+     0.0034,
+     0.1201
+    ],
+    "eventstudy_call_ff5_0_1_kp": [
+     0.0068,
+     0.2055
+    ],
+    "eventstudy_call_ff5_0_1_rank": [
+     0.0122,
+     0.3182
+    ],
+    "eventstudy_call_ff5_0_1_sign": [
+     0.0133,
+     0.3321
+    ],
+    "eventstudy_call_ff5_0_20_kp": [
+     0.0162,
+     0.388
+    ],
+    "eventstudy_call_ff5_0_20_rank": [
+     0.0396,
+     0.7923
+    ],
+    "eventstudy_call_ff5_0_20_sign": [
+     0.3117,
+     1.0
+    ],
+    "eventstudy_csex_ff5_-1_5_kp": [
+     0.0337,
+     0.708
+    ],
+    "eventstudy_csex_ff5_-1_5_rank": [
+     0.0057,
+     0.1833
+    ],
+    "eventstudy_csex_ff5_-1_5_sign": [
+     0.0037,
+     0.1241
+    ],
+    "eventstudy_csex_ff5_0_1_rank": [
+     0.0026,
+     0.095
+    ],
+    "eventstudy_csex_ff5_0_1_sign": [
+     0.0067,
+     0.2055
+    ],
+    "eventstudy_csex_ff5_0_20_kp": [
+     0.1602,
+     1.0
+    ],
+    "eventstudy_csex_ff5_0_20_rank": [
+     0.3804,
+     1.0
+    ],
+    "eventstudy_csex_ff5_0_20_sign": [
+     0.5399,
+     1.0
+    ],
+    "eventstudy_csex_mm_-1_5_kp": [
+     0.0609,
+     1.0
+    ],
+    "eventstudy_csex_mm_-1_5_rank": [
+     0.0224,
+     0.4921
+    ],
+    "eventstudy_csex_mm_-1_5_sign": [
+     0.2247,
+     1.0
+    ],
+    "eventstudy_csex_mm_0_1_kp": [
+     0.0771,
+     1.0
+    ],
+    "eventstudy_csex_mm_0_1_rank": [
+     0.0083,
+     0.2247
+    ],
+    "eventstudy_csex_mm_0_1_sign": [
+     0.0066,
+     0.2055
+    ],
+    "eventstudy_csex_mm_0_20_kp": [
+     0.2503,
+     1.0
+    ],
+    "eventstudy_csex_mm_0_20_rank": [
+     0.5197,
+     1.0
+    ],
+    "eventstudy_csex_mm_0_20_sign": [
+     0.5411,
+     1.0
+    ],
+    "garch_scar_call": [
+     0.007,
+     0.2055
+    ],
+    "garch_scar_csex": [
+     0.1009,
+     1.0
+    ],
+    "placebo_dates_two_sided": [
+     0.018,
+     0.4136
+    ],
+    "viral_mean_delta": [
+     0.6121,
+     1.0
+    ],
+    "volume_call_day0": [
+     0.2328,
+     1.0
+    ],
+    "volume_call_day1": [
+     0.1535,
+     1.0
+    ],
+    "volume_call_w01": [
+     0.1757,
+     1.0
+    ],
+    "volume_csex_day0": [
+     0.0,
+     0.001
+    ],
+    "volume_csex_day1": [
+     0.0007,
+     0.028
+    ],
+    "volume_csex_w01": [
+     0.0,
+     0.0007
+    ]
+   }
+  }
+ }
+}

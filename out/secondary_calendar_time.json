@@ -1,0 +1,48 @@
+{
+ "label": "in-sample, historical; secondary (prereg \u00a76, erratum E4 \u00a74)",
+ "nw_lags": 6,
+ "csex_h12": {
+  "alpha_monthly": 0.00497063120822294,
+  "t": 0.6092284881326789,
+  "p": 0.5423729999079084,
+  "months": 143,
+  "first_month": "2005-04-30",
+  "last_month": "2024-09-30",
+  "mean_events_held": 2.013986013986014,
+  "events": 24,
+  "firms": 24
+ },
+ "csex_h36": {
+  "alpha_monthly": -0.0002651089893871512,
+  "t": -0.06558940235957875,
+  "p": 0.9477047266373073,
+  "months": 231,
+  "first_month": "2005-04-30",
+  "last_month": "2026-09-30",
+  "mean_events_held": 3.411255411255411,
+  "events": 24,
+  "firms": 24
+ },
+ "call_h12": {
+  "alpha_monthly": 0.021030747787572045,
+  "t": 1.8087330968618547,
+  "p": 0.07049247854265044,
+  "months": 202,
+  "first_month": "1995-09-30",
+  "last_month": "2021-10-31",
+  "mean_events_held": 2.8514851485148514,
+  "events": 48,
+  "firms": 46
+ },
+ "call_h36": {
+  "alpha_monthly": 0.018408430662280068,
+  "t": 1.8312688848558352,
+  "p": 0.0670604194567511,
+  "months": 284,
+  "first_month": "1995-09-30",
+  "last_month": "2023-10-31",
+  "mean_events_held": 6.084507042253521,
+  "events": 48,
+  "firms": 46
+ }
+}

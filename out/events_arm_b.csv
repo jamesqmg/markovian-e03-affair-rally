@@ -1,0 +1,16 @@
+ticker,case,event_date,group,not_ceo_at_event
+AMZN,Amazon / Bezos,2019-01-09,reel,False
+MSFT,Microsoft / Gates,2021-05-16,reel,True
+000660.KS,SK Hynix / Chey,2015-12-29,reel,False
+GOOGL,Alphabet / Brin,2013-08-28,reel,True
+BA,Boeing / Stonecipher,2005-03-07,added,False
+HPQ,HP / Hurd,2010-08-06,added,False
+BBY,Best Buy / Dunn,2012-04-10,added,False
+LMT,Lockheed / Kubasik,2012-11-09,added,False
+BKNG,Priceline / Huston,2016-04-28,added,False
+INTC,Intel / Krzanich,2018-06-21,added,False
+TXN,TI / Crutcher,2018-07-17,added,False
+MCD,McDonald's / Easterbrook,2019-11-03,added,False
+WYNN,Wynn / Wynn,2018-01-26,added,False
+BP,BP / Browne,2007-05-01,added,False
+BP,BP / Looney,2023-09-12,added,False

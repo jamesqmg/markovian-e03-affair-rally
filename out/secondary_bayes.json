@@ -1,0 +1,502 @@
+{
+ "label": "in-sample, historical; secondary (prereg \u00a76, erratum E4 \u00a73)",
+ "groups": [
+  "csex",
+  "cother"
+ ],
+ "n": {
+  "csex": 24,
+  "cother": 33
+ },
+ "p_csex_gt0_locked": 0.031625,
+ "p_csex_lt0": 0.968375,
+ "mu": {
+  "mean": -0.009350060373476275,
+  "hdi94": [
+   -0.031237012865651254,
+   0.011849573090937928
+  ],
+  "p_gt0": 0.131125
+ },
+ "mu_group": [
+  {
+   "mean": -0.011243412690713597,
+   "hdi94": [
+    -0.023579655467005994,
+    0.0005928835727735775
+   ]
+  },
+  {
+   "mean": -0.008212535004070489,
+   "hdi94": [
+    -0.021060149025800435,
+    0.003377752442496537
+   ]
+  }
+ ],
+ "p_mu_group_gt0": [
+  0.031625,
+  0.101375
+ ],
+ "max_rhat": 1.0086122237528858,
+ "converged": true,
+ "divergences": 24,
+ "events": [
+  {
+   "id": 498,
+   "coname": "BOEING CO",
+   "group": "csex",
+   "car": -0.0038334843483258945,
+   "se": 0.014631053193162036,
+   "theta_mean": -0.006891373596275766
+  },
+  {
+   "id": 7411,
+   "coname": "CARBO CERAMICS INC",
+   "group": "csex",
+   "car": -0.013269774154552386,
+   "se": 0.020074955480210793,
+   "theta_mean": -0.01204617619548854
+  },
+  {
+   "id": 3407,
+   "coname": "STRYKER CORP",
+   "group": "csex",
+   "car": -0.007185693412304817,
+   "se": 0.015635459198293115,
+   "theta_mean": -0.009098298562297304
+  },
+  {
+   "id": 4621,
+   "coname": "CBS CORP",
+   "group": "csex",
+   "car": -0.012439073386629498,
+   "se": 0.023723105202490057,
+   "theta_mean": -0.011664020167734448
+  },
+  {
+   "id": 443,
+   "coname": "BEST BUY CO INC",
+   "group": "csex",
+   "car": -0.02086393133219696,
+   "se": 0.029907496604297482,
+   "theta_mean": -0.014044558190050233
+  },
+  {
+   "id": 1713,
+   "coname": "HP INC",
+   "group": "csex",
+   "car": -0.08547786280817199,
+   "se": 0.010474865228556672,
+   "theta_mean": -0.08203656018888872
+  },
+  {
+   "id": 2103,
+   "coname": "LAM RESEARCH CORP",
+   "group": "csex",
+   "car": -0.03551717963373475,
+   "se": 0.02614798084022936,
+   "theta_mean": -0.0206183456988952
+  },
+  {
+   "id": 8761,
+   "coname": "WYNN RESORTS LTD",
+   "group": "csex",
+   "car": -0.0041262659789133675,
+   "se": 0.021700324380501148,
+   "theta_mean": -0.008026755654065605
+  },
+  {
+   "id": 1982,
+   "coname": "JOHNSON CONTROLS INTL PLC",
+   "group": "csex",
+   "car": -0.01285292068272834,
+   "se": 0.011833825083335275,
+   "theta_mean": -0.01209094985138512
+  },
+  {
+   "id": 7665,
+   "coname": "IGATE CORP",
+   "group": "csex",
+   "car": -0.023123259111661423,
+   "se": 0.01998273308579027,
+   "theta_mean": -0.016385064010149532
+  },
+  {
+   "id": 3563,
+   "coname": "TEXAS INSTRUMENTS INC",
+   "group": "csex",
+   "car": -0.010305589801167395,
+   "se": 0.015532932360720774,
+   "theta_mean": -0.010480958971472118
+  },
+  {
+   "id": 2691,
+   "coname": "FIRSTENERGY CORP",
+   "group": "csex",
+   "car": -0.05589871426350397,
+   "se": 0.035616520169213135,
+   "theta_mean": -0.025164141777528584
+  },
+  {
+   "id": 9379,
+   "coname": "CBOE GLOBAL MARKETS INC",
+   "group": "csex",
+   "car": 0.024475361282615522,
+   "se": 0.01755072118112928,
+   "theta_mean": 0.010670023449735526
+  },
+  {
+   "id": 8205,
+   "coname": "BOOKING HOLDINGS INC",
+   "group": "csex",
+   "car": 0.015982843372993365,
+   "se": 0.02114510042662733,
+   "theta_mean": 0.0022276837475538034
+  },
+  {
+   "id": 8257,
+   "coname": "F5 NETWORKS INC",
+   "group": "csex",
+   "car": -0.016017088304432207,
+   "se": 0.022087195407733944,
+   "theta_mean": -0.013348928415047158
+  },
+  {
+   "id": 1857,
+   "coname": "INTEL CORP",
+   "group": "csex",
+   "car": 0.0005890729198628798,
+   "se": 0.019082823639985803,
+   "theta_mean": -0.005329283228350514
+  },
+  {
+   "id": 2301,
+   "coname": "MCDONALD'S CORP",
+   "group": "csex",
+   "car": -0.003259961629592096,
+   "se": 0.01101422225812919,
+   "theta_mean": -0.005984285578832012
+  },
+  {
+   "id": 5475,
+   "coname": "TRUEBLUE INC",
+   "group": "csex",
+   "car": -0.10961414861638165,
+   "se": 0.02683990815333221,
+   "theta_mean": -0.08669530060916265
+  },
+  {
+   "id": 8370,
+   "coname": "WORLD WRESTLING ENTMT INC",
+   "group": "csex",
+   "car": 0.10462144329212637,
+   "se": 0.020133670295994294,
+   "theta_mean": 0.09559061013669184
+  },
+  {
+   "id": 6325,
+   "coname": "INGEVITY CORP",
+   "group": "csex",
+   "car": -0.08837076624285728,
+   "se": 0.024275986127602536,
+   "theta_mean": -0.06578895202580168
+  },
+  {
+   "id": 6628,
+   "coname": "BARNES & NOBLE INC",
+   "group": "csex",
+   "car": -0.058586927964077745,
+   "se": 0.04035138890398405,
+   "theta_mean": -0.02444351356104947
+  },
+  {
+   "id": 9072,
+   "coname": "SYNCHRONOSS TECHNOLOGIES",
+   "group": "csex",
+   "car": -0.04274763203231803,
+   "se": 0.07814619373698456,
+   "theta_mean": -0.015251187572135049
+  },
+  {
+   "id": 8540,
+   "coname": "TAPESTRY INC",
+   "group": "csex",
+   "car": -0.008246683984874778,
+   "se": 0.04794757654707333,
+   "theta_mean": -0.010591227123300705
+  },
+  {
+   "id": 10500,
+   "coname": "LULULEMON ATHLETICA INC",
+   "group": "csex",
+   "car": 0.004429808496253653,
+   "se": 0.034555655145124695,
+   "theta_mean": -0.00634829890036599
+  },
+  {
+   "id": 307,
+   "coname": "AUTOMATIC DATA PROCESSING",
+   "group": "cother",
+   "car": -3.16824620500613e-05,
+   "se": 0.00784803600142522,
+   "theta_mean": -0.0018325977880197992
+  },
+  {
+   "id": 2187,
+   "coname": "LOUISIANA-PACIFIC CORP",
+   "group": "cother",
+   "car": 0.05627788221189535,
+   "se": 0.026831995024916247,
+   "theta_mean": 0.026696641608573685
+  },
+  {
+   "id": 10421,
+   "coname": "ENCOMPASS HEALTH CORP",
+   "group": "cother",
+   "car": 0.0035580009027433093,
+   "se": 0.07493878509189993,
+   "theta_mean": -0.006020508338005703
+  },
+  {
+   "id": 5038,
+   "coname": "LATTICE SEMICONDUCTOR CORP",
+   "group": "cother",
+   "car": -0.0009080637658124731,
+   "se": 0.02692090951961861,
+   "theta_mean": -0.0052124520470382026
+  },
+  {
+   "id": 1361,
+   "coname": "MACY'S INC",
+   "group": "cother",
+   "car": 0.024917896313485427,
+   "se": 0.03022873503661801,
+   "theta_mean": 0.003728494156793957
+  },
+  {
+   "id": 1997,
+   "coname": "KLA-TENCOR CORP",
+   "group": "cother",
+   "car": -0.006840699883104768,
+   "se": 0.019266994906860613,
+   "theta_mean": -0.007374425258087688
+  },
+  {
+   "id": 5006,
+   "coname": "CIRRUS LOGIC INC",
+   "group": "cother",
+   "car": -0.045822502898155204,
+   "se": 0.02907496971095956,
+   "theta_mean": -0.022986649997415644
+  },
+  {
+   "id": 7763,
+   "coname": "MAXIMUS INC",
+   "group": "cother",
+   "car": 0.00238444065263828,
+   "se": 0.014529371428448373,
+   "theta_mean": -0.0019855288897947803
+  },
+  {
+   "id": 7032,
+   "coname": "BROOKS AUTOMATION INC",
+   "group": "cother",
+   "car": 0.009266989999055848,
+   "se": 0.03286649905774382,
+   "theta_mean": -0.0020862113118768617
+  },
+  {
+   "id": 536,
+   "coname": "BRISTOL-MYERS SQUIBB CO",
+   "group": "cother",
+   "car": 0.046373474524012415,
+   "se": 0.018039534129021904,
+   "theta_mean": 0.03131480051778609
+  },
+  {
+   "id": 4759,
+   "coname": "MGM RESORTS INTERNATIONAL",
+   "group": "cother",
+   "car": -0.07088712623351248,
+   "se": 0.05294239300630569,
+   "theta_mean": -0.022219604050188115
+  },
+  {
+   "id": 1087,
+   "coname": "ADTALEM GLOBAL EDUCATION INC",
+   "group": "cother",
+   "car": -0.13602209657028455,
+   "se": 0.03360088249156813,
+   "theta_mean": -0.10707855433987691
+  },
+  {
+   "id": 7033,
+   "coname": "BROOKS AUTOMATION INC",
+   "group": "cother",
+   "car": -0.029405749931900177,
+   "se": 0.023743003273549525,
+   "theta_mean": -0.01704529092748804
+  },
+  {
+   "id": 6190,
+   "coname": "ASGN INC",
+   "group": "cother",
+   "car": -0.006638637339421646,
+   "se": 0.019257438400243205,
+   "theta_mean": -0.007100397438600439
+  },
+  {
+   "id": 7852,
+   "coname": "CHILDRENS PLACE INC",
+   "group": "cother",
+   "car": 0.003291960070724388,
+   "se": 0.025940205237152254,
+   "theta_mean": -0.0038473949319055402
+  },
+  {
+   "id": 8746,
+   "coname": "RED ROBIN GOURMET BURGERS",
+   "group": "cother",
+   "car": -0.23752436957699466,
+   "se": 0.02747956470060287,
+   "theta_mean": -0.22896010821037663
+  },
+  {
+   "id": 7956,
+   "coname": "VERISIGN INC",
+   "group": "cother",
+   "car": 0.048180401037038,
+   "se": 0.022640134501465535,
+   "theta_mean": 0.025739408146136202
+  },
+  {
+   "id": 8085,
+   "coname": "MANNATECH INC",
+   "group": "cother",
+   "car": 0.04051823006081326,
+   "se": 0.043760663322472186,
+   "theta_mean": 0.00536058386938613
+  },
+  {
+   "id": 3682,
+   "coname": "UNIFI INC",
+   "group": "cother",
+   "car": -0.03301827527404219,
+   "se": 0.023844532620465368,
+   "theta_mean": -0.018751858039880765
+  },
+  {
+   "id": 1041,
+   "coname": "DANA INC",
+   "group": "cother",
+   "car": -0.07304361971578843,
+   "se": 0.05183855323995737,
+   "theta_mean": -0.02290987442536033
+  },
+  {
+   "id": 8086,
+   "coname": "MANNATECH INC",
+   "group": "cother",
+   "car": -0.07929574321479402,
+   "se": 0.05998650484889155,
+   "theta_mean": -0.023221562695186274
+  },
+  {
+   "id": 9024,
+   "coname": "CROCS INC",
+   "group": "cother",
+   "car": -0.07285655204111148,
+   "se": 0.08860893166974013,
+   "theta_mean": -0.015665721748752442
+  },
+  {
+   "id": 3668,
+   "coname": "UNITED CONTINENTAL HLDGS INC",
+   "group": "cother",
+   "car": -0.004958857149088492,
+   "se": 0.030942876541636258,
+   "theta_mean": -0.007229791980670722
+  },
+  {
+   "id": 10679,
+   "coname": "EZCORP INC -CL A",
+   "group": "cother",
+   "car": -0.02230553904331306,
+   "se": 0.03644678136037988,
+   "theta_mean": -0.01152379474040472
+  },
+  {
+   "id": 8486,
+   "coname": "VISTEON CORP",
+   "group": "cother",
+   "car": -0.03512499921358089,
+   "se": 0.01622099773045982,
+   "theta_mean": -0.024346586765780612
+  },
+  {
+   "id": 8664,
+   "coname": "GAMESTOP CORP",
+   "group": "cother",
+   "car": 0.020730105176580253,
+   "se": 0.030133439922961913,
+   "theta_mean": 0.0023082353192730555
+  },
+  {
+   "id": 9181,
+   "coname": "COMSCORE INC",
+   "group": "cother",
+   "car": 0.00498063141262723,
+   "se": 0.05368257935672818,
+   "theta_mean": -0.006022169826337907
+  },
+  {
+   "id": 8038,
+   "coname": "INNOSPEC INC",
+   "group": "cother",
+   "car": -0.011487719770360616,
+   "se": 0.06338304079265575,
+   "theta_mean": -0.008821594262006254
+  },
+  {
+   "id": 9199,
+   "coname": "MIMEDX GROUP INC",
+   "group": "cother",
+   "car": -0.3668094596839434,
+   "se": 0.0636559482055031,
+   "theta_mean": -0.3347925132084656
+  },
+  {
+   "id": 1869,
+   "coname": "INTERFACE INC",
+   "group": "cother",
+   "car": -0.019053061308748287,
+   "se": 0.024315943237009207,
+   "theta_mean": -0.01247494135362101
+  },
+  {
+   "id": 702,
+   "coname": "CAVCO INDUSTRIES INC",
+   "group": "cother",
+   "car": -0.20492365260300058,
+   "se": 0.02786572616914655,
+   "theta_mean": -0.1943104934913672
+  },
+  {
+   "id": 4646,
+   "coname": "TILE SHOP HOLDINGS INC",
+   "group": "cother",
+   "car": 0.025197755620327698,
+   "se": 0.06086206448587723,
+   "theta_mean": -0.001635823552991261
+  },
+  {
+   "id": 4344,
+   "coname": "PILGRIM'S PRIDE CORP",
+   "group": "cother",
+   "car": -0.01741598649206032,
+   "se": 0.029507940272187994,
+   "theta_mean": -0.01090676542620676
+  }
+ ]
+}

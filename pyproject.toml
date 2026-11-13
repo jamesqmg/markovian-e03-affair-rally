@@ -1,0 +1,22 @@
+[project]
+name = "e03-affair-rally"
+version = "0.1.0"
+description = "Is infidelity priced in? Event study of CEO conduct dismissals and Nvidia (Nov 2026)."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "pandas>=2.2", "numpy>=1.26", "scipy>=1.13", "statsmodels>=0.14", "linearmodels>=6.0",
+  "arch>=7.0", "yfinance>=0.2.50", "openpyxl>=3.1", "pyarrow>=16", "matplotlib>=3.8",
+  "pymc>=5.16", "causalpy>=0.4", "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbclient>=0.11.0",
+    "nbformat>=5.11.1",
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = ["slow: PyMC sampling tests (~20 s)"]

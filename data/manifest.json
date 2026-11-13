@@ -1,0 +1,206 @@
+[
+ {
+  "file": "F-F_Research_Data_5_Factors_2x3_daily_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip",
+  "sha256": "e58577223032aa45071a46686f7068900c371b516c9eb04e28e974c34264f84f",
+  "fetched_utc": "2026-11-11T16:40:01+00:00"
+ },
+ {
+  "file": "F-F_Research_Data_5_Factors_2x3_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+  "sha256": "17d7a575e71d6764a70ddec3f8d887756c0eebf3a60f64d6ba95d2adde3fed26",
+  "fetched_utc": "2026-11-11T16:40:02+00:00"
+ },
+ {
+  "file": "F-F_Momentum_Factor_daily_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_daily_CSV.zip",
+  "sha256": "e56d5bc845544e2993e77353b12c611cfce3149ef754f9b59fc67904ddadd369",
+  "fetched_utc": "2026-11-11T16:40:03+00:00"
+ },
+ {
+  "file": "F-F_Momentum_Factor_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+  "sha256": "27ed60e5b2caa9ea334a261cddfa864a9926f6bf45e9677c95dfd835c5abb315",
+  "fetched_utc": "2026-11-11T16:40:05+00:00"
+ },
+ {
+  "file": "Developed_5_Factors_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Developed_5_Factors_CSV.zip",
+  "sha256": "954580906c3ae6fc1870677e40dfbe5a94a6cf188be5330c896f2fc578d9f0ba",
+  "fetched_utc": "2026-11-11T16:40:06+00:00"
+ },
+ {
+  "file": "Europe_5_Factors_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Europe_5_Factors_CSV.zip",
+  "sha256": "87c61cc3311a4e541f623a3532af4e93be033a1897cdf664e2b549348eee9bcb",
+  "fetched_utc": "2026-11-11T16:40:08+00:00"
+ },
+ {
+  "file": "Asia_Pacific_ex_Japan_5_Factors_CSV.zip",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Asia_Pacific_ex_Japan_5_Factors_CSV.zip",
+  "sha256": "e1e58b7e13422bb05fa752c185689dba8407c934f74288774708c7d319364634",
+  "fetched_utc": "2026-11-11T16:40:09+00:00"
+ },
+ {
+  "file": "CEO_Dismissal_Dataset_Excel_26Nov25.xlsx",
+  "url": "https://zenodo.org/api/records/23328926/files/CEO%20Dismissal%20Dataset%20Excel%2026Nov25.xlsx/content",
+  "sha256": "663bcaa033eb816d76b84f878c91835bb462d0847d8ca9abfdaadd256f859378",
+  "fetched_utc": "2026-11-11T16:40:25+00:00"
+ },
+ {
+  "file": "sec_company_tickers.json",
+  "url": "https://www.sec.gov/files/company_tickers.json",
+  "sha256": "5955265e746d38ae450db6cf128c68991863ac1e5296e707515df2cfaa29252f",
+  "fetched_utc": "2026-11-11T16:40:29+00:00"
+ },
+ {
+  "file": "tiingo_GRA.parquet",
+  "url": "tiingo:GRA:1993-01-01:2026-10-01",
+  "sha256": "1f1464726857b23e9338692ccacb0faaa8c3c590a7735cb87cc3333006bdd45e",
+  "fetched_utc": "2026-11-11T16:51:32+00:00"
+ },
+ {
+  "file": "tiingo_WDR.parquet",
+  "url": "tiingo:WDR:1993-01-01:2026-10-01",
+  "sha256": "515bb0c0cb26eac36a35854542580627114b28813e3b38decec57fbcd27ff0ff",
+  "fetched_utc": "2026-11-11T16:51:34+00:00"
+ },
+ {
+  "file": "tiingo_CRR.parquet",
+  "url": "tiingo:CRR:1993-01-01:2026-10-01",
+  "sha256": "2d23a503bca1f019475ccc09292d08fca67aaabc23381990b544b1643908bbad",
+  "fetched_utc": "2026-11-11T16:51:36+00:00"
+ },
+ {
+  "file": "tiingo_VIAC.parquet",
+  "url": "tiingo:VIAC:1993-01-01:2026-10-01",
+  "sha256": "85e669b40377dcaf64503e25a3d8fdef4e7c1a9d89bcd90ffdbd1a9c0bd7a5ce",
+  "fetched_utc": "2026-11-11T16:51:37+00:00"
+ },
+ {
+  "file": "tiingo_IGTE.parquet",
+  "url": "tiingo:IGTE:1993-01-01:2026-10-01",
+  "sha256": "24310251a7e75aa9d9d5036ad48874a092b79be43af6563198473d196148923b",
+  "fetched_utc": "2026-11-11T16:51:39+00:00"
+ },
+ {
+  "file": "tiingo_ADEA.parquet",
+  "url": "tiingo:ADEA:1993-01-01:2026-10-01",
+  "sha256": "2878f1bb6ec7ce90f45a2a675558c2a1337b3d824c2ec5e1095d5ff38d3f1693",
+  "fetched_utc": "2026-11-11T16:51:42+00:00"
+ },
+ {
+  "file": "tiingo_WWE.parquet",
+  "url": "tiingo:WWE:1993-01-01:2026-10-01",
+  "sha256": "a927c313772c0e438139a16669a0b3bab3a9b4459b7e2a9fb3937f26d1aa0ecc",
+  "fetched_utc": "2026-11-11T16:51:44+00:00"
+ },
+ {
+  "file": "tiingo_BKS.parquet",
+  "url": "tiingo:BKS:1993-01-01:2026-10-01",
+  "sha256": "9d2190a289b513a31a5c29fe3971192ccc4eeaea7b2c0d3c6f9d7e865fd65311",
+  "fetched_utc": "2026-11-11T16:51:47+00:00"
+ },
+ {
+  "file": "prices_call.parquet",
+  "url": "yfinance:call:1993-01-01:2026-10-01:58 tickers",
+  "sha256": "905d68c228a41b18f5dfd4b1ef072702b54238df0c396ce16a184f609d00fd72",
+  "fetched_utc": "2026-11-11T16:51:52+00:00"
+ },
+ {
+  "file": "prices_csex.parquet",
+  "url": "yfinance:csex:1993-01-01:2026-10-01:20 tickers",
+  "sha256": "fa58938a5d0f0467a466a5e6c3045e8d9919690f24a11f40ec4d67de8aec921d",
+  "fetched_utc": "2026-11-11T16:52:22+00:00"
+ },
+ {
+  "file": "tiingo_GES.parquet",
+  "url": "tiingo:GES:1993-01-01:2026-10-01",
+  "sha256": "0698ad29d10619a549295dd914d317b4116f2464f8e49cf1a1fb7e75f2b5aac6",
+  "fetched_utc": "2026-11-11T16:52:25+00:00"
+ },
+ {
+  "file": "tiingo_SNCR.parquet",
+  "url": "tiingo:SNCR:1993-01-01:2026-10-01",
+  "sha256": "b3ddc70ab5040f978f80a85f74fafe380747af66ad6ffa2b2921a52c7109f9b1",
+  "fetched_utc": "2026-11-11T16:52:27+00:00"
+ },
+ {
+  "file": "prices_csex_2ae13d2ee9.parquet",
+  "url": "yfinance:csex:1993-01-01:2026-10-01:20 tickers",
+  "sha256": "22336c97d818adff9ae9f3da88a93eba6aed81626f6f4050963c50755a28c8be",
+  "fetched_utc": "2026-11-11T16:55:06+00:00"
+ },
+ {
+  "file": "prices_call_bf604361cc.parquet",
+  "url": "yfinance:call:1993-01-01:2026-10-01:58 tickers",
+  "sha256": "2511d02bc7466b629c6c281ff1830602f9b96f3eb3564c5c591f195d3bf1f9d6",
+  "fetched_utc": "2026-11-11T16:55:10+00:00"
+ },
+ {
+  "file": "prices_rick_d181932672.parquet",
+  "url": "yfinance:viral:1999-01-01:2026-10-01:15 tickers",
+  "sha256": "7eac41bbd35b156f399563c4c457205b729ecf9b2c6f16857973f1b6c1cc40af",
+  "fetched_utc": "2026-11-11T16:56:19+00:00"
+ },
+ {
+  "file": "prices_synth_37fc067e2a.parquet",
+  "url": "yfinance:synth:2025-09-01:2026-11-12:27 tickers",
+  "sha256": "b345815cc14db4c16e2480d661d577865685729c9f52b76235c85fdcd74d3ffb",
+  "fetched_utc": "2026-11-12T06:56:52+00:00"
+ },
+ {
+  "file": "prices_csex_vol_57016fc365.parquet",
+  "url": "yfinance:csex_vol:Volume:1993-01-01:2026-10-01:18 tickers",
+  "sha256": "e71b7ea398361baf7db7e1aaf6d40ce657b815e7bfc327c56d68b76fa337f4ae",
+  "fetched_utc": "2026-11-12T07:49:17+00:00"
+ },
+ {
+  "file": "tiingo_vol_BKS.parquet",
+  "url": "tiingo:adjVolume:BKS:1993-01-01:2026-10-01",
+  "sha256": "2925b6369257e03b1cabb4ccbb97dcc5d9019fb2656ed6f7b94fc317d6dff406",
+  "fetched_utc": "2026-11-12T07:49:18+00:00"
+ },
+ {
+  "file": "tiingo_vol_CRR.parquet",
+  "url": "tiingo:adjVolume:CRR:1993-01-01:2026-10-01",
+  "sha256": "32960dca373c22277ad83645b0a712eb17b2db19fa469b4d7d259a602b42d035",
+  "fetched_utc": "2026-11-12T07:49:19+00:00"
+ },
+ {
+  "file": "tiingo_vol_IGTE.parquet",
+  "url": "tiingo:adjVolume:IGTE:1993-01-01:2026-10-01",
+  "sha256": "5266ab3f7a406b6a0e5f2de36e7b8d025bbdffc44979e722616061d4a586a7fc",
+  "fetched_utc": "2026-11-12T07:49:20+00:00"
+ },
+ {
+  "file": "tiingo_vol_SNCR.parquet",
+  "url": "tiingo:adjVolume:SNCR:1993-01-01:2026-10-01",
+  "sha256": "f4161270d56efee06f2fb7ad72ab4620d4b5f434401adfeb9dc0beb5c5011fc9",
+  "fetched_utc": "2026-11-12T07:49:22+00:00"
+ },
+ {
+  "file": "tiingo_vol_VIAC.parquet",
+  "url": "tiingo:adjVolume:VIAC:1993-01-01:2026-10-01",
+  "sha256": "f25cb69d44f310b8f27c37cf9b69569729cabd3f5ec6ef51ac0b7d9af6529689",
+  "fetched_utc": "2026-11-12T07:49:24+00:00"
+ },
+ {
+  "file": "tiingo_vol_WWE.parquet",
+  "url": "tiingo:adjVolume:WWE:1993-01-01:2026-10-01",
+  "sha256": "1755b798662946d1badfec2dbe9affc817fe62039730dbd273ffb9030cb19912",
+  "fetched_utc": "2026-11-12T07:49:26+00:00"
+ },
+ {
+  "file": "prices_call_vol_9177c4d01a.parquet",
+  "url": "yfinance:call_vol:Volume:1993-01-01:2026-10-01:46 tickers",
+  "sha256": "2e805685a6d667db7fc948c3bc0593325090c7e94fa91f4f65719957d610c1b1",
+  "fetched_utc": "2026-11-12T07:49:30+00:00"
+ },
+ {
+  "file": "prices_synth_35e766c70b.parquet",
+  "url": "yfinance:synth:Close:2025-09-01:2026-11-13:27 tickers",
+  "sha256": "22db138ae3c4bbcfa9c6afe32ae92252d103efd6d56e1be94088a8e9594a4ec3",
+  "fetched_utc": "2026-11-13T04:41:52+00:00"
+ }
+]

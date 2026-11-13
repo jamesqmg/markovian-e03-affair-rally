@@ -1,0 +1,11 @@
+{
+ "start": "2026-11-06",
+ "end": "2026-11-12",
+ "close_start": 186.63999938964844,
+ "close_end": 166.19000244140625,
+ "shares": 24147000000.0,
+ "fetched": "2026-11-13 04:45:05",
+ "loss_usd_bn": 494,
+ "pct": -10.96,
+ "label": "raw market value, Nov 6 close to Nov 12 close (the resignation day); includes all news that week, not just the affair; current shares outstanding"
+}
